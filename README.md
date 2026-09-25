@@ -46,3 +46,7 @@ performance.getEntriesByType('resource')
   .filter(e => /\.(glb|gltf|fbx|obj|stl|dae|usd[azc]?|vrm|babylon)(\?|$)/i.test(e.name))
   .map(e => e.name);
 ```
+
+
+# useful 
+https://optimizeglb.com/dashboard
